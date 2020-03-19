@@ -1,9 +1,9 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
 
-class Car extends React.Component {
+class button extends React.Component {
     render() {
-        return <h2>Hi, I am a Car!</h2>
+        return <h2>Hi, I am a button!</h2>
     }
 }
-export default Car;
+export default button;

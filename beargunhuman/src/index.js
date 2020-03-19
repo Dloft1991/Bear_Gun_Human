@@ -3,12 +3,43 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import Car from './App.js';
 
-class Car extends React.Component {
-    render() {
-        return <h2>I am a {this.props.brand}!</h2>
-    }
-}
+const button = 
+<div>
+    <div class="row">
+        <div class="col-sm-4">
+        <button>Button</button>
+        </div>
+        <div class="col-sm-4">
+        <button>Button</button>
+        </div>
+        <div class="col-sm-4">
+        <button>Button</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+        <button>Button</button>
+        </div>
+        <div class="col-sm-4">
+        <button>Button</button>
+        </div>
+        <div class="col-sm-4">
+        <button>Button</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+        <button>Button</button>
+        </div>
+        <div class="col-sm-4">
+        <button>Button</button>
+        </div>
+        <div class="col-sm-4">
+        <button>Button</button>
+        </div>
+    </div>
+    
+</div>
 
-const myelement = <Car brand="Dodge" />;
-ReactDOM.render(myelement, document.getElementById('root'));
+ReactDOM.render(button, document.getElementById('root'));
 
