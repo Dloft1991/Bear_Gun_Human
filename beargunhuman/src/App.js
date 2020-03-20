@@ -1,9 +1,15 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
 
-class button extends React.Component {
+class Button extends React.Component {
     render() {
-        return <h2>Hi, I am a button!</h2>
+        return (
+           <button onClick={depositValue}>Button</button>
+        )
     }
 }
-export default button;
+
+function depositValue(){
+    alert("You clicked me");
+}
+
+export default Button;
